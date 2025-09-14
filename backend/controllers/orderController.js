@@ -95,7 +95,7 @@ const stripe =new Stripe(process.env.STRIPE_SECRET_KEY)
 /*
 // placing user  order frontend
 const placeOrder =async(resizeBy,req)=>{
-    const frontend_url="http://localhost:5174";
+    const frontend_url="https://pec-delights-frontend.onrender.com";
     try {
         const newOrder=new orderModel({
             userId:req.body.userId,
