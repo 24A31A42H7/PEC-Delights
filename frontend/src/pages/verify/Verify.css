@@ -1,0 +1,34 @@
+.verify{
+    min-height: 60vh;
+    display: grid;
+    align-items: center;
+    justify-self:center;
+    width: 500px;
+}
+
+.verify button{
+    border-radius: 15px;
+    width: 160px;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+    color:white;
+    margin-left: 35px;
+}
+.verify .spinner{
+    width: 100px;
+    height: 100px;
+    place-self: center;
+    border:5px solid #bdbdbd;
+    border-top-color: tomato;
+    border-radius: 50%;
+    animation:rotate 1s infinite;
+
+
+}
+
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
